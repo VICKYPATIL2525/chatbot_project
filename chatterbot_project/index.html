@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Page</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<a href="index.html" ><li>Home</li></a>
+			<a href="about_us_page.html"><li>About us</li></a>
+			<a href=""><li>About bot</li></a>
+			<a href="contact_us.html"><li>Contact us </li></a>
+			<a href="contact_us.html"><li>Feedback</li></a>
+			<a href=""><li>Question you can ask</li></a>
+			<a href="chatterbot_login_page.html"><li>login</li></a>
+		</ul>
+	</nav>
+	<center><h1>ANDBOT</h1></center>
+	<div class="search-container">
+		<input type="text" placeholder="hey! what can i help you" class="search-input" id="search-input">
+		<button class="search-button" onclick="search()">Search</button>
+	</div>
+    <div class="textbox" style="padding-top: 50px;">
+        <textarea id="message" name="message" rows="10" required="" style="width: 1500px;height: 167px;"></textarea>
+    </div>
+    
+	<!-- <script>
+		function search() {
+			const searchTerm = document.getElementById("search-input").value;
+			alert("You searched for: " + searchTerm);
+		}
+	</script> -->
+</body>
+</html>

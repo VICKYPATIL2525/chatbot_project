@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="contact_us.css">
+  </head>
+  <body>
+    <div>
+        <center><h1>Contact us </h1></center>
+    </div>
+    <!-- Create the form -->
+    <div class="form-container">
+      <form id="contact-form">
+        <label for="name" >Name:</label>
+        <input type="text"  placeholder="Enter your name" id="name" name="name" required>
+        <label for="email"> Your Email:</label>
+        <input type="email" placeholder="Enter your email eg:-jhon23@gmail.com"id="email" name="email"required>
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="write us" name="message" rows="5" required></textarea>
+        <center><input type="submit" value="Submit"></center>
+      </form>
+    </div>
+    <div><center><h1>Thank you for your feedback</h1></center></div>
+    <!-- Add a script to handle the form submission -->
+    <!-- <script>
+      const form = document.getElementById('contact-form');
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        // Get the form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        // Send the form data to the email address specified
+        window.open(`mailto:vikcyvpatil@gmail.com?subject=Contact Form Submission&body=Name: ${name}%0DEmail: ${email}%0DMessage: ${message}`);
+      });
+    </script> -->
+  </body>
+</html>
